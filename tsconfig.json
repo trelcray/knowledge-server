@@ -11,6 +11,13 @@
     "noFallthroughCasesInSwitch": true /* Enable error reporting for fallthrough cases in switch statements. */,
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
-  "include": ["src/**/*.ts", ".eslintrc.json"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src/**/*.ts",
+    ".eslintrc.json",
+    "src/**/*.json",
+    ".env"
+  ],
+  "exclude": [
+    "node_modules, dist, src/tests"
+  ]
 }
