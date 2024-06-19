@@ -10,7 +10,8 @@
     "lint": "eslint --fix --ignore-path .gitignore .",
     "lint-staged": "lint-staged",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{ts,js,json,cjs}\"",
-    "commit": "cz"
+    "commit": "cz",
+    "prepare": "husky"
   },
   "author": "@thaliszambarda",
   "license": "MIT",
