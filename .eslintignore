@@ -1,0 +1,7 @@
+**/node_modules/*
+**/out/*
+coverage
+dist
+commitlint.config.cjs
+migrations
+knexfile.js
